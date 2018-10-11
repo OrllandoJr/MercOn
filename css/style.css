@@ -1,0 +1,135 @@
+.pagina{
+	width: 100%;
+	height: 100%;
+	
+}
+
+.cabecalho{
+	width: 100%;
+	height: 50px;
+}
+
+.menu{
+	width: 100%;
+	height: 100%;
+    font:13px Arial, Sans-serif;
+    color: black;
+    vertical-align: middle;
+}
+
+.home{
+	width: 8.1%;
+	height: 30px;
+	background-color: #CDAA7D;
+	border-radius: 20%;
+	margin-left: 0.5%;
+	margin-right: 0.5%;
+	vertical-align: 15px;
+	float: left;
+}
+
+.graos{
+	width: 8.1%;
+	height: 30px;
+	background-color: #CDAA7D;
+	border-radius: 20%;
+	margin-left: 0.5%;
+	margin-right: 0.5%;
+	float: left;
+}
+
+.bebidas{
+	width: 8.1%;
+	height: 30px;
+	background-color: #CDAA7D;
+	border-radius: 20%;
+	margin-left: 0.5%;
+	margin-right: 0.5%;
+	float: left;
+}
+
+.hortalicas{
+	width: 8.1%;
+	height: 30px;
+	background-color: #CDAA7D;
+	border-radius: 20%;
+	margin-left: 0.5%;
+	margin-right: 0.5%;
+	float: left;
+}
+
+.frios{
+	width: 8.1%;
+	height: 30px;
+	background-color: #CDAA7D;
+	border-radius: 20%;
+	margin-left: 0.5%;
+	margin-right: 0.5%;
+	float: left;
+}
+
+.acougue{
+	width: 8.1%;
+	height: 30px;
+	background-color: #CDAA7D;
+	border-radius: 20%;
+	margin-left: 0.5%;
+	margin-right: 0.5%;
+	float: left;
+}
+
+.higiene{
+	width: 8.1%;
+	height: 30px;
+	background-color: #CDAA7D;
+	border-radius: 20%;
+	margin-left: 0.5%;
+	margin-right: 0.5%;
+	float: left;
+}
+
+.padaria{
+	width: 8.1%;
+	height: 30px;
+	background-color: #CDAA7D;
+	border-radius: 20%;
+	margin-left: 0.5%;
+	margin-right: 0.5%;
+	float: left;
+}
+
+.login{
+	width: 9%;
+	height: 30px;
+	background-color: #FFE7BA;
+	border-radius: 20%;
+	margin-left: 0.5%;
+	margin-right: 0.5%;
+	float: left;
+}
+
+.cadastrar{
+	width: 9%;
+	height: 30px;
+	background-color: #FFE7BA;
+	border-radius: 20%;
+	margin-left: 0.5%;
+	margin-right: 0.5%;
+	float: left;
+}
+
+
+.carrinho{
+	float: left;
+}
+
+.produtos{
+	width:100%;
+	height: 680px;
+}
+
+.rodape{
+	width: 100%;
+	height: 15%;
+	border: 1px solid black;
+}
