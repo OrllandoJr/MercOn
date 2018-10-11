@@ -12,9 +12,26 @@
 .menu{
 	width: 100%;
 	height: 100%;
-    font:13px Arial, Sans-serif;
+}
+
+a:link {
+	text-decoration:none;
+   color: black;
+}
+
+a:visited {
+text-decoration:none;
     color: black;
-    vertical-align: middle;
+}
+
+a:hover {
+text-decoration:none;
+    color: #000000;
+}
+
+a:active {
+text-decoration:none;
+    color: blue;
 }
 
 .home{
