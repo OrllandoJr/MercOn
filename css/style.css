@@ -1,12 +1,13 @@
 .pagina{
-	width: 100%;
+	width: 1426px;
 	height: 100%;
 	
 }
 
 .cabecalho{
 	width: 100%;
-	height: 50px;
+	height: 80px;
+	margin-left: 3%;
 }
 
 .menu{
@@ -14,29 +15,36 @@
 	height: 40px;
 }
 
+
 a:link {
 	text-decoration:none;
-   color: black;
+	color: blue;
 }
 
 a:visited {
-text-decoration:none;
-    color: black;
+	text-decoration:none;
+   	color: black;
 }
 
-a:hover {
-text-decoration:none;
-    color: #000000;
-}
 
 a:active {
-text-decoration:none;
-    color: blue;
+	text-decoration:none;
+    	color: black;
+	background-color: #D0CDD7;
 }
 
-.home{
+.nav-pills-container{
+	margin-left: 1%;
+	margin-right: 1%;
+	text-align: center;
+	line-height: 35px;
+	font-size: 30px;
+	font-family: 'Amatic SC', cursive;
+}
+
+.nav-pills{
 	width: 8.1%;
-	height: 30px;
+	height: 40px;
 	background-color: #CDAA7D;
 	border-radius: 9px;
 	margin-left: 0.5%;
@@ -45,79 +53,17 @@ text-decoration:none;
 	float: left;
 }
 
-.graos{
-	width: 8.1%;
-	height: 30px;
-	background-color: #CDAA7D;
-	border-radius: 9px;
-	margin-left: 0.5%;
-	margin-right: 0.5%;
-	float: left;
+.nav-pills:hover{
+	background-color: #F3E8DB;
 }
 
-.bebidas{
-	width: 8.1%;
-	height: 30px;
-	background-color: #CDAA7D;
-	border-radius: 9px;
-	margin-left: 0.5%;
-	margin-right: 0.5%;
-	float: left;
+.nav.pills:visited{
+	background-color: #416165;
 }
 
-.hortalicas{
-	width: 8.1%;
-	height: 30px;
-	background-color: #CDAA7D;
-	border-radius: 9px;
-	margin-left: 0.5%;
-	margin-right: 0.5%;
-	float: left;
-}
-
-.frios{
-	width: 8.1%;
-	height: 30px;
-	background-color: #CDAA7D;
-	border-radius: 9px;
-	margin-left: 0.5%;
-	margin-right: 0.5%;
-	float: left;
-}
-
-.acougue{
-	width: 8.1%;
-	height: 30px;
-	background-color: #CDAA7D;
-	border-radius: 9px;
-	margin-left: 0.5%;
-	margin-right: 0.5%;
-	float: left;
-}
-
-.higiene{
-	width: 8.1%;
-	height: 30px;
-	background-color: #CDAA7D;
-	border-radius: 9px;
-	margin-left: 0.5%;
-	margin-right: 0.5%;
-	float: left;
-}
-
-.padaria{
-	width: 8.1%;
-	height: 30px;
-	background-color: #CDAA7D;
-	border-radius: 9px;
-	margin-left: 0.5%;
-	margin-right: 0.5%;
-	float: left;
-}
-
-.login{
+.nav-pills-dif{
 	width: 9%;
-	height: 30px;
+	height: 40px;
 	background-color: #FFE7BA;
 	border-radius: 15px;
 	margin-left: 0.5%;
@@ -125,32 +71,30 @@ text-decoration:none;
 	float: left;
 }
 
-.cadastrar{
-	width: 9%;
-	height: 30px;
-	background-color: #FFE7BA;
-	border-radius: 15px;
-	margin-left: 0.5%;
-	margin-right: 0.5%;
-	float: left;
+.nav-pills-dif:hover{
+	background-color: #F3E8DB;
 }
+
 
 .carrinho{
 	float: left;
+	height: 50%;
 }
 
 .produtos{
-	width:92%;
+	width:95%;
 	height: 560px;
-	border-radius: 15px;
-	margin-left: 3%;
-	margin-right: 10%;
-	background-color: #6E6E6E;
+	margin-top: 2%;
+	margin-left: 5%;
+	margin-right: 5%;
+	font-family: "Tahoma";
+	color: black;
+	
 }
 
 .card{
-	width: 12%;
-	height: 45%;
+	width: 220px;
+	height: 350px;
 	margin-left: 1%;
 	margin-right: 1%;
 	margin-top: 1%;
@@ -169,7 +113,7 @@ text-decoration:none;
 	border-radius: 9px;	
 }
 
-input[type=email], input[type=password] {
+.input[type=email], .input[type=password] {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -178,7 +122,7 @@ input[type=email], input[type=password] {
     box-sizing: border-box;
 }
 
-button {
+.button {
     background-color: #4CAF50;
     color: white;
     padding: 14px 20px;
@@ -188,8 +132,8 @@ button {
     width: 100%;
 }
 
-button:hover {
-    opacity: 0.8;
+.button:hover {
+   background-color: #000;
 }
 
 .cancelar {
@@ -209,11 +153,8 @@ button:hover {
 }
 
 .rodape{
-	width: 92%;
-	height: 15%;
+	width: 100%;
+	height: 100%;
 	background-color: #6E6E6E;
-	border-radius: 9px;
-	margin-left: 3%;
 	margin-top: 0.5%;
-	margin-right: 10%;
 }
