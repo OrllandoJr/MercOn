@@ -207,8 +207,8 @@ li:hover ul {
 .card{
 	width: 220px;
 	height: 340px;
-	margin-left: 2%;
-	margin-right: 2%;
+	margin-left: 5%;
+	margin-right: 3%;
 	margin-top: 1%;
 	float: left;
 }
