@@ -5,6 +5,20 @@
 <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> MercOn</title> 
+
+    <script>
+		function formatar(mascara, documento){
+ 		 var i = documento.value.length;
+ 		 var saida = mascara.substring(0,1);
+ 		 var texto = mascara.substring(i)
+  
+ 		 if (texto.substring(0,1) != saida){
+            documento.value += texto.substring(0,1);
+  			}
+  
+		}
+	</script>
+
   </head>
 
 <div class="pagina">
@@ -15,45 +29,25 @@
       <a href="home.html"><img src="img/logo.png" height="75" width="230"/></a>
     </div>
     
-    <!-- Login -->
-    <div class="produtos">
-		<div class="log">
+    <!-- Cadastro -->
+    <div>
+<div class="log">
 	<form action="action_page.php" style="border:0px solid #ccc">
 	<div class="container">
-			<hr>
-			<h3>Cadastro</h3>
-			<hr>
 
-			<label for="nome"></label>
-			<input type="nome" placeholder="NOME" name="nome" required>
-	
-			<label for="sobrenome"></label>
-			<input type="sobrenome" placeholder="SOBRENOME" name="sobrenome" required>
+			<center><p id="title"><b>Cadastro</b></p></center>
 
-			<label for="cpf"></label>
-			<input type="cpf" placeholder="CPF" name="cpf" required>
-
-			<label for="tel"></label>
-			<input type="tel" placeholder="TELEFONE" name="tel" required>
-
-			<label for="endereco"></label>
-			<input type="endereco" placeholder="ENDEREÇO" name="endereco" required>
-
-			<label for="comp"></label>
-			<input type="comp" placeholder="COMPLEMENTO" name="comp" required>
-	
-			<label for="email"></label>
+			<input type="text" placeholder="NOME" name="nome" required>
+			<input type="text" placeholder="SOBRENOME" name="sobrenome" required>
+			<input type="text" placeholder="CPF" name="cpf" maxlength="14" OnKeyPress="formatar('###.###.###-##', this)" required>
+			<input type="text" placeholder="TELEFONE" name="tel" maxlength="12" OnKeyPress="formatar('## #########', this)" required>
+			<input type="text" placeholder="CEP" name="cep" maxlength="9" OnKeyPress="formatar('#####-###', this)" required>
+			<input type="text" placeholder="ENDEREÇO" name="endereco" required>
+			<input type="text" placeholder="COMPLEMENTO" name="comp" required>
 			<input type="email" placeholder="E-MAIL" name="email" required>
-
-			<label for="senha"></label>
-			<input type="password" placeholder="SENHA" name="senha" required>
-
-			<label for="confSenha"></label>
-			<input type="password" placeholder="CONFIRMAR SENHA" name="confSenha" required>
-
-			<label>
+			<input type="password" placeholder="SENHA" minlength="8" name="senha" required>
+			<input type="password" placeholder="CONFIRMAR SENHA" minlength="8" name="confSenha" required>
 			<input type="checkbox" checked="checked" name="lembrar" style="margin-bottom:15px"> Lembrar-me
-			</label>
 
 			<p>Ao criar uma conta, você concorda com nossos <a href="#" style="color:dodgerblue">Termos e Privacidade</a>.</p>
 
