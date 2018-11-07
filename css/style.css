@@ -225,12 +225,35 @@ li:hover ul {
 	border-radius: 9px;	
 }
 
-input[type=email], input[type=password] {
-    width: 100%;
+input[type=email], input[type=password],  input[type=tel], input[type=endereco], input[type=comp], input[type=cpf] {
+    width: 48%;
     padding: 12px 20px;
-    margin: 8px 0;
+    margin: 5px 0;
     display: inline-block;
     border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+     float: left;
+}
+
+input[type=nome]{
+    width: 47%;
+    padding: 12px 20px;
+    margin: 5px 0;
+    margin-right: 6px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+input[type=sobrenome]{
+    width: 47%;
+    padding: 12px 20px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 8px;
     box-sizing: border-box;
 }
 
