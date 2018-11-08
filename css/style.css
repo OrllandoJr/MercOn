@@ -277,9 +277,9 @@ li:hover ul {
 .produtos{
 	width:100%;
 	height: 80%;
-	margin-top: 1%;
-	margin-left:3%;
-	margin-right: 3%;
+	margin-top: 30px;
+	margin-left: 60px;
+	margin-right: 60px;
 	font-family: "Tahoma";
 	color: black;
 }
@@ -287,9 +287,9 @@ li:hover ul {
 .card{
 	width: 220px;
 	height: 340px;
-	margin-left: 3%;
-	margin-right: 5%;
-	margin-top: 1%;
+	margin-left: 60px;
+	margin-right: 60px;
+	margin-top: 30px;
 	float: left;
 }
 
