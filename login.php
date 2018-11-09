@@ -32,7 +32,7 @@
 			</div>
 
 		<div class="container">
-			<a href="home.php"><button type="button" class="cancelar">Cancelar</button></a>
+			<a href="index.php"><button type="button" class="cancelar">Cancelar</button></a>
 		</div>
 	</form>
 		
