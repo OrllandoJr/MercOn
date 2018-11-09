@@ -28,16 +28,16 @@
 	<ul id="nav">
 		<li><a href="#"><span id="text">MENU</span></a>
 	<ul>
- 		<li><a class="nav-container" href="home-log.html">Home</a></li>
-  		<li><a class="nav-container" href="graos-log.html">Grãos</a></li>
-  		<li><a class="nav-container" href="bebidas-log.html">Bebidas</a></li>
- 		<li><a class="nav-container" href="hortalicas-log.html">Hortaliças</a></li>
-  		<li><a class="nav-container" href="frios-log.html">Frios</a></li>
-		<li><a class="nav-container" href="acougue-log.html">Açougue</a></li>
- 		<li><a class="nav-container" href="higiene-log.html">Higiene</a></li>
- 		<li><a class="nav-container" href="padaria-log.html">Padaria</a></li>
-		<li><a class="nav-container-user" href="minhaconta.html"><small>Minha Conta</small></a></li>
-		<li><a class="carrinho" href="carrinho-log.html"><img src="img/carrinho.png" height="30" width="30" /></a></li>
+ 		<li><a class="nav-container" href="index-log.php">Home</a></li>
+  		<li><a class="nav-container" href="graos-log.php">Grãos</a></li>
+  		<li><a class="nav-container" href="bebidas-log.php">Bebidas</a></li>
+ 		<li><a class="nav-container" href="hortalicas-log.php">Hortaliças</a></li>
+  		<li><a class="nav-container" href="frios-log.php">Frios</a></li>
+		<li><a class="nav-container" href="acougue-log.php">Açougue</a></li>
+ 		<li><a class="nav-container" href="higiene-log.php">Higiene</a></li>
+ 		<li><a class="nav-container" href="padaria-log.php">Padaria</a></li>
+		<li><a class="nav-container-user" href="minhaconta.php"><small>Minha Conta</small></a></li>
+		<li><a class="carrinho" href="carrinho-log.php"><img src="img/carrinho.png" height="30" width="30" /></a></li>
 		<li><a class="exit" href="#"><img src="img/exit.png" height="25" width="25" /></a></li>
 	</ul>
 	</li>
@@ -53,166 +53,166 @@
 		<img class="produto" src="img/149.jpeg">
 		<h5 class="nome">Produto</h5>
 		<p class="descricao">Descrição do Produto</p>
-		<a href="carrinho.html" class="comprar">Comprar</a>
+		<a href="carrinho.php" class="comprar">Comprar</a>
 	</div>
 		
 	<div class="card" >
 		<img class="produto" src="img/150.png">
 		<h5 class="nome">Produto</h5>
 		<p class="descricao">Descrição do Produto</p>
-		<a href="carrinho.html" class="comprar">Comprar</a>
+		<a href="carrinho.php" class="comprar">Comprar</a>
 	</div>
 		
 	<div class="card" >
 		<img class="produto" src="img/151.jpeg">
 		<h5 class="nome">Produto</h5>
 		<p class="descricao">Descrição do Produto</p>
-		<a href="carrinho.html" class="comprar">Comprar</a>
+		<a href="carrinho.php" class="comprar">Comprar</a>
 	</div>
 		
 	<div class="card" >
 		<img class="produto" src="img/152.jpeg">
 		<h5 class="nome">Produto</h5>
 		<p class="descricao">Descrição do Produto</p>
-		<a href="carrinho.html" class="comprar">Comprar</a>
+		<a href="carrinho.php" class="comprar">Comprar</a>
 	</div>
 		
 	<div class="card" >
 		<img class="produto" src="img/153.jpeg">
 		<h5 class="nome">Produto</h5>
 		<p class="descricao">Descrição do Produto</p>
-		<a href="carrinho.html" class="comprar">Comprar</a>
+		<a href="carrinho.php" class="comprar">Comprar</a>
 	</div>
 		
 	<div class="card" >
 		<img class="produto" src="img/154.jpeg">
 		<h5 class="nome">Produto</h5>
 		<p class="descricao">Descrição do Produto</p>
-		<a href="carrinho.html" class="comprar">Comprar</a>
+		<a href="carrinho.php" class="comprar">Comprar</a>
 	</div>
 		
 	<div class="card" >
 		<img class="produto" src="img/155.jpeg">
 		<h5 class="nome">Produto</h5>
 		<p class="descricao">Descrição do Produto</p>
-		<a href="carrinho.html" class="comprar">Comprar</a>
+		<a href="carrinho.php" class="comprar">Comprar</a>
 	</div>
 		
 	<div class="card" >
 		<img class="produto" src="img/156.jpeg">
 		<h5 class="nome">Produto</h5>
 		<p class="descricao">Descrição do Produto</p>
-		<a href="carrinho.html" class="comprar">Comprar</a>
+		<a href="carrinho.php" class="comprar">Comprar</a>
 	</div>
 		
 	<div class="card" >
 		<img class="produto" src="img/157.jpeg">
 		<h5 class="nome">Produto</h5>
 		<p class="descricao">Descrição do Produto</p>
-		<a href="carrinho.html" class="comprar">Comprar</a>
+		<a href="carrinho.php" class="comprar">Comprar</a>
 	</div>
 		
 	<div class="card" >
 		<img class="produto" src="img/158.jpeg">
 		<h5 class="nome">Produto</h5>
 		<p class="descricao">Descrição do Produto</p>
-		<a href="carrinho.html" class="comprar">Comprar</a>
+		<a href="carrinho.php" class="comprar">Comprar</a>
 	</div>
 		
 	<div class="card" >
 		<img class="produto" src="img/159.jpeg">
 		<h5 class="nome">Produto</h5>
 		<p class="descricao">Descrição do Produto</p>
-		<a href="carrinho.html" class="comprar">Comprar</a>
+		<a href="carrinho.php" class="comprar">Comprar</a>
 	</div>
 		
 	<div class="card" >
 		<img class="produto" src="img/160.jpeg">
 		<h5 class="nome">Produto</h5>
 		<p class="descricao">Descrição do Produto</p>
-		<a href="carrinho.html" class="comprar">Comprar</a>
+		<a href="carrinho.php" class="comprar">Comprar</a>
 	</div><div class="card" >
 		<img class="produto" src="img/149.jpeg">
 		<h5 class="nome">Produto</h5>
 		<p class="descricao">Descrição do Produto</p>
-		<a href="carrinho.html" class="comprar">Comprar</a>
+		<a href="carrinho.php" class="comprar">Comprar</a>
 	</div>
 		
 	<div class="card" >
 		<img class="produto" src="img/150.png">
 		<h5 class="nome">Produto</h5>
 		<p class="descricao">Descrição do Produto</p>
-		<a href="carrinho.html" class="comprar">Comprar</a>
+		<a href="carrinho.php" class="comprar">Comprar</a>
 	</div>
 		
 	<div class="card" >
 		<img class="produto" src="img/151.jpeg">
 		<h5 class="nome">Produto</h5>
 		<p class="descricao">Descrição do Produto</p>
-		<a href="carrinho.html" class="comprar">Comprar</a>
+		<a href="carrinho.php" class="comprar">Comprar</a>
 	</div>
 		
 	<div class="card" >
 		<img class="produto" src="img/152.jpeg">
 		<h5 class="nome">Produto</h5>
 		<p class="descricao">Descrição do Produto</p>
-		<a href="carrinho.html" class="comprar">Comprar</a>
+		<a href="carrinho.php" class="comprar">Comprar</a>
 	</div>
 		
 	<div class="card" >
 		<img class="produto" src="img/153.jpeg">
 		<h5 class="nome">Produto</h5>
 		<p class="descricao">Descrição do Produto</p>
-		<a href="carrinho.html" class="comprar">Comprar</a>
+		<a href="carrinho.php" class="comprar">Comprar</a>
 	</div>
 		
 	<div class="card" >
 		<img class="produto" src="img/154.jpeg">
 		<h5 class="nome">Produto</h5>
 		<p class="descricao">Descrição do Produto</p>
-		<a href="carrinho.html" class="comprar">Comprar</a>
+		<a href="carrinho.php" class="comprar">Comprar</a>
 	</div>
 		
 	<div class="card" >
 		<img class="produto" src="img/155.jpeg">
 		<h5 class="nome">Produto</h5>
 		<p class="descricao">Descrição do Produto</p>
-		<a href="carrinho.html" class="comprar">Comprar</a>
+		<a href="carrinho.php" class="comprar">Comprar</a>
 	</div>
 		
 	<div class="card" >
 		<img class="produto" src="img/156.jpeg">
 		<h5 class="nome">Produto</h5>
 		<p class="descricao">Descrição do Produto</p>
-		<a href="carrinho.html" class="comprar">Comprar</a>
+		<a href="carrinho.php" class="comprar">Comprar</a>
 	</div>
 		
 	<div class="card" >
 		<img class="produto" src="img/157.jpeg">
 		<h5 class="nome">Produto</h5>
 		<p class="descricao">Descrição do Produto</p>
-		<a href="carrinho.html" class="comprar">Comprar</a>
+		<a href="carrinho.php" class="comprar">Comprar</a>
 	</div>
 		
 	<div class="card" >
 		<img class="produto" src="img/158.jpeg">
 		<h5 class="nome">Produto</h5>
 		<p class="descricao">Descrição do Produto</p>
-		<a href="carrinho.html" class="comprar">Comprar</a>
+		<a href="carrinho.php" class="comprar">Comprar</a>
 	</div>
 		
 	<div class="card" >
 		<img class="produto" src="img/159.jpeg">
 		<h5 class="nome">Produto</h5>
 		<p class="descricao">Descrição do Produto</p>
-		<a href="carrinho.html" class="comprar">Comprar</a>
+		<a href="carrinho.php" class="comprar">Comprar</a>
 	</div>
 		
 	<div class="card" >
 		<img class="produto" src="img/160.jpeg">
 		<h5 class="nome">Produto</h5>
 		<p class="descricao">Descrição do Produto</p>
-		<a href="carrinho.html" class="comprar">Comprar</a>
+		<a href="carrinho.php" class="comprar">Comprar</a>
 	</div>
 
 		
